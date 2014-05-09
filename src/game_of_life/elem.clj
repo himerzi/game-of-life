@@ -1,4 +1,6 @@
-(ns game-of-life.elem)
+(ns ^{:author "Michael Detmold"
+      :doc "An elementary cellular automaton engine (http://mathworld.wolfram.com/ElementaryCellularAutomaton.html)"}
+    game-of-life.elem)
 
 ;;assume
 (def grid-squares 40)

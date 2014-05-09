@@ -1,4 +1,6 @@
-(ns game-of-life.gfx
+(ns ^{:doc "Handles everything to do with graphics"}
+    game-of-life.gfx
+  
   (:require [quil.core :as q]))
 
 (def grid-squares 40)

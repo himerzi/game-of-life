@@ -1,4 +1,6 @@
-(ns game-of-life.gol)
+(ns ^{:author "Michael Detmold"
+      :doc "A game of life engine"}
+  game-of-life.gol)
 
 (def game-state #{[20 19] [21 19] [22 19] [22 17] [21 16] [20 17]})
 
